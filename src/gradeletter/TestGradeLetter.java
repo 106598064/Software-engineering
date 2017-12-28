@@ -36,20 +36,26 @@ public class TestGradeLetter extends TestCase{
 		assertEquals(Result,letterGrade(Input));
 	}
 	
-	
 	public void test_5() {
+		Input = 78 ;
+		Result = 'C' ;
+		assertEquals(Result,letterGrade(Input));
+	}
+	
+	
+	public void test_6() {
 		Input = 87 ;
 		Result = 'B' ;
 		assertEquals(Result,letterGrade(Input));
 	}
 	
-	public void test_6() {
+	public void test_7() {
 		Input = 99 ;
 		Result = 'A' ;
 		assertEquals(Result,letterGrade(Input));
 	}
 	
-	public void test_7() {
+	public void test_8() {
 		Input = 120 ;
 		Result = 'X' ;
 		assertEquals(Result,letterGrade(Input));
